@@ -2,25 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 10px;  
-}
-.container{
+  
+ 
+  }  
+
+
+.mini-container{
     max-width: 1000px;
     margin-inline: auto;
-    padding-inline: 1rem;
-   margin-bottom: 1.5rem;
+    margin-top: 10px;
     
+   
+   
 }
 
 .flex-box{
     display: flex;
-    
-
-    
-    
 }
 
-nav{
+.block-yellow{
  flex: 0 1 30%;
  text-align: center; 
 }
@@ -42,21 +42,40 @@ main{
     flex:0 1 100%
 }
 
-.flex-box1{
-    display: flex;
-    flex-direction: column;
-}
-
 .block-salmon{
-   
-    flex: 0 1 40%;
+    flex: 0 1 35%;
    
 }
 
-footer{
-    flex: 0 1 15%;
-    
+.block-color{
+    flex: 0 1 20%;
 }
+
+.block-aqua{
+    
+    flex: 0 1 100%;
+}
+
+.logo{
+    font-size: 30px;
+    height: 45px;
+    border: 1px dashed black;
+    margin-top: 20px;
+ }   
+    
+
+   
+    
+   
+
+
+
+
+    
+   
+
+
+
 
 
 

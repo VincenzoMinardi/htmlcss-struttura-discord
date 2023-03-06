@@ -1,57 +1,95 @@
+.container-grigio-chiaro{
+   background-color: rgb(134, 164, 187);
+  
+}
 
-
-nav{
+.block-yellow{
     background-color:yellow;
-    border: 1px solid black;
+    border: 1px dashed black;
     height: 30px;
 }
 
 header{
     background-color:yellow;
-    border: 1px solid black;
+    border: 1px dashed black;
     height: 30px;
 }
 
+.container-blue{
+    background-color: blue;
+}
+
+.block-pavelio{
+    height: 400px;
+    background-color:palevioletred;
+    border: 1px dashed black; 
+}
+
 .block-blue1{
-    height: 200px;
+    height: 250px;
     background-color:blue;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 
 .block-pink1{
-    height: 200px;
+    height: 250px;
     background-color: pink;
-    border: 1px solid black;
+    border: 1px dashed black;
+}
+
+.container-gray{
+    background-color: gray;
 }
 
 .block-pink2{
-    height: 200px;
+    height: 250px;
     background-color: pink;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 
 .block-blue2{
-    height: 200px;
+    height: 250px;
     background-color: blue;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 
 main{
     height: 600px;
     background-color: green;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 
 .block-salmon{
-    height: 200px;
+    height: 250px;
     background-color: salmon;
+    border: 1px dashed black;
 
 }
 
-footer{
-    height: 100px;
+.block-color{
+    height: 250px;
     background-color: rgb(72, 182, 237);
+    border: 1px dashed white;
 }
+
+.container-black{
+    background-color: black;
+    
+}
+
+.block-aqua{
+  
+    height: 75px;
+    background-color: aqua
+   
+}
+
+
+
+
+
+
+
 
 
     
