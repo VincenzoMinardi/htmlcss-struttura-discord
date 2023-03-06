@@ -39,6 +39,18 @@ header{
 main{
     height: 600px;
     background-color: green;
+    border: 1px solid black;
+}
+
+.block-salmon{
+    height: 200px;
+    background-color: salmon;
+
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(72, 182, 237);
 }
 
 

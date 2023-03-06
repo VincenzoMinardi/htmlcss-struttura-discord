@@ -1,19 +1,20 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
+  margin-top: 10px;  
 }
 .container{
     max-width: 1000px;
     margin-inline: auto;
     padding-inline: 1rem;
-    margin-bottom: 1.5rem;
+   margin-bottom: 1.5rem;
     
 }
 
 .flex-box{
     display: flex;
-    justify-content: space-around;
+    
 
     
     
@@ -39,6 +40,22 @@ header{
 
 main{
     flex:0 1 100%
+}
+
+.flex-box1{
+    display: flex;
+    flex-direction: column;
+}
+
+.block-salmon{
+   
+    flex: 0 1 40%;
+   
+}
+
+footer{
+    flex: 0 1 15%;
+    
 }
 
 
