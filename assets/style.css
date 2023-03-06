@@ -7,13 +7,14 @@
     max-width: 1000px;
     margin-inline: auto;
     padding-inline: 1rem;
+    margin-bottom: 1.5rem;
     
 }
 
 .flex-box{
     display: flex;
     justify-content: space-around;
-gap: 1rem;
+
     
     
 }
@@ -27,6 +28,19 @@ header{
      flex: 0 1 70%; 
      text-align: center;
 }
+
+.block-blue1,.block-blue2{
+    flex: 0 1 60%;
+}
+
+.block-pink1,.block-pink2{
+    flex: 0 1 40%
+}
+
+main{
+    flex:0 1 100%
+}
+
 
 
     
