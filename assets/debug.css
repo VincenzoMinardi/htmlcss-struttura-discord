@@ -78,12 +78,17 @@ main{
 }
 
 .block-aqua{
-  
+    display: flex;
     height: 75px;
-    background-color: aqua
-   
+    background-color: aqua;
+    justify-content: space-between;
 }
 
+button{
+    border: 1px dashed black;
+    margin-top: 20px;
+    height: 30px;
+ }
 
 
 
