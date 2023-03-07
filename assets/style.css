@@ -2,7 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- }  
+ } 
+ 
+ .container-img{
+    background-image:url(../img/jumbo.png);
+    height: 700px;
+    background-size: cover;
+    }
 
  .mini-container{
     max-width: 1000px;
@@ -10,15 +16,67 @@
     padding: 20px;
 }
 
-.block-pavelio{
-    flex: 0 1 100%;
-}
-
 .flex-box{
     display: flex;
+    justify-content: space-between;
+    padding: 60px;
 }
 
-.block-yellow{
+.info{
+    font-size: 20px;
+    color: white;
+}
+
+button{
+    border-radius: 10px;
+    width: 80px;
+}
+
+main{
+    text-align: center;
+    margin-top: 100px;
+    
+    color: white;
+}
+
+.page-info{
+   font-size: 4rem; 
+}
+
+
+.paragraf{
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 50px;
+}
+/* 
+.page-info2{
+    font-size: 3rem;
+}
+
+.paragraf2{
+    padding-top: 20px;
+    font-size: 1.3em;
+}
+
+.container-img2{
+    background-image: url(../img/wave.svg);
+} */
+
+
+
+
+
+
+
+/* .block-pavelio{
+    flex: 0 1 100%;
+} */
+
+
+
+/* .block-yellow{
  flex: 0 1 30%;
  text-align: center; 
 }
@@ -59,7 +117,8 @@ header{
     height: 45px;
     border: 1px dashed black;
     margin-top: 20px;
- }   
+ }    */
+
     
 
    
